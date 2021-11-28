@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+button {
+	background: #3882f6;
+	width: 100px;
+	height: 35px;
+	border-radius: 10px;
+}
+#signup-button {
+	border: 2px solid white;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px -150px;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	gap: 16px;
+}
+
+.header-about {
+	background: #1f2937;
+	color: white;
+}
+
+.image-about {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0;
+}
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 450px;
+}
+#main-title {
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+.image {
+	border: 1px solid white;
+}
+.illustration-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.illustration-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sign-up {
+	background: #3882f6;
+}
+
+.testimonial {
+	background: #e5e7eb;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #1f2937;
+	color: white;
+}
